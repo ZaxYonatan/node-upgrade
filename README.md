@@ -61,4 +61,5 @@ Tarring the cloud-npm-downloader directory is essential for packaging and distri
 | ==utf-8-validate==   		  | 6.0.3          | Yes      | No                  | Yes (6.0.3) , Yes(5.0.10)          | Yes                                       |                         | 5.0.10                  |
 
 
-![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/e218d337-8274-4649-a4fb-3d7ac65bc2b8)
+![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/c2b53832-ed34-4d37-912e-f12ced358461)
+
