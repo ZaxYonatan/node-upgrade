@@ -10,8 +10,8 @@ S3_BUCKET_PATH=s3://wix-code-modules
 S3_DESTINATION=$S3_BUCKET_PATH/$NPM_TAR_NAME
 
 # aws s3 cp tars-to-upload/cloud-npm-downloader-18.18.0.0.tar.gz s3://wix-code-modules/cloud-npm-downloader-18.18.0.0.tar.gz
-COMMAND="aws s3 cp $LOCAL_TAR_DESTINATION $S3_DESTINATION"
+UPLOAD_TAR_COMMAND="aws s3 cp $LOCAL_TAR_DESTINATION $S3_DESTINATION"
 
-echo "Running the following command:\n$COMMAND"
-# eval $COMMAND # Uncomment before running the script
+echo "Uploading npm tar to s3:\n$UPLOAD_TAR_COMMAND"
+# eval $UPLOAD_TAR_COMMAND # Uncomment before running the script
 echo "Done uploading new tar to $S3_DESTINATION"
