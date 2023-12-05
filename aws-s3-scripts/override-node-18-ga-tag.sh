@@ -20,8 +20,8 @@ S3_BUCKET_PATH=s3://wix-code-modules
 S3_DESTINATION=$S3_BUCKET_PATH/$GA_TAGS_FOLDER_NAME/$NODE_18_GA_TAG_FILE_NAME
 
 # aws s3 cp ga_tags/cloud-npm-downloader-18.json s3://wix-code-modules/ga_tags/cloud-npm-downloader-18.json
-COMMAND="aws s3 cp $GA_TAG_FILE_DESTINATION $S3_DESTINATION"
+UPLOAD_GA_TAGS_FILE_COMMAND="aws s3 cp $GA_TAG_FILE_DESTINATION $S3_DESTINATION"
 
-echo "Running the following command:\n$COMMAND"
-# eval $COMMAND # Uncomment before running the script
+echo "Overriding ga_tags:\n$UPLOAD_GA_TAGS_FILE_COMMAND"
+# eval $UPLOAD_GA_TAGS_FILE_COMMAND # Uncomment before running the script
 echo "Done overriding $S3_DESTINATION"
