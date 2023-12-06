@@ -28,38 +28,6 @@ Tarring the cloud-npm-downloader directory is essential for packaging and distri
 
 ## Native Modules Breakdown
 
-| Name               		    | Latest version | Has ELF? | Is velo installable | Requireable in Velo (Node 14)      | Is installable in Node18                  | Comments                | Additional Versions     |
-|---------------------------|----------------|----------|---------------------|------------------------------------|-------------------------------------------|-------------------------|-------------------------|
-| @web-js/websocket  		    | 1.0.30         | No       | No                  | No                                 | Yes                                       | Is it a native-module?? |                         |
-| ==argon2==         		    | 0.23.0         | Yes      | Yes                 | Yes                                | Yes                                       |                         |                         |
-| ==bcrypt==         		    | 5.0.1          | Yes      | Yes                 | Yes                                | "No (3.0.8 , 3.0.6) | Yes (5.0.0, 5.0.1)" |                         | "3.0.6, 3.0.8, 5.0.0"   |
-| buffertools        		    | 2.1.6          | Yes      | No                  | No                                 | No                                        |                         |                         |
-| ==bufferutil==     		    | 4.0.7          | Yes      | Yes                 | Yes                                | Yes                                       |                         | 4.0.1                   |
-| canvas             		    | 2.11.0         | Yes      | Yes                 | No                                 | No                                        |                         |                         |
-| contextify         		    | 0.1.15         | Yes      | No                  | No                                 | No                                        |                         |                         |
-| ==cryptian==       		    | 0.0.5          | Yes      | Yes                 | Yes (0.0.5)                        | No (0.0.5) | Yes (0.0.7)                  | should update to 0.0.7  |                         |
-| ==fibers==         		    | 5.0.3          | Yes      | No                  | Yes                                | Yes                                       |                         |                         |
-| ==fmerge==         		    | 1.2.0          | No       | No                  | Yes                                | Yes                                       | Is it a native-module?? |                         |
-| fsevents           		    | 2.3.2          | Yes      | No                  | No                                 | No                                        |                         | "1.12.13, 2.0.7, 2.1.3" |
-| ==grpc==           		    | 1.24.2         | Yes      | not-approved        | Yes                                | Yes                                       |                         | 1.24.11                 |
-| iconv              		    | 3.0.1          | Yes      | Yes                 | No                                 | Yes                                       |                         | 3.0.0                   |
-| ==keccak==         		    | 3.0.3          | Yes      | No                  | Yes                                | Yes                                       |                         | "3.0.1, 2.1.0"          |
-| libpq              		    | 1.8.12         | Yes      | No                  | No                                 | No                                        |                         |                         |
-| ==native-hello-world== 	  | 2.0.0          | Yes      | Yes                 | Yes                                | Yes                                       |                         |                         |
-| node-expat         		    | 2.4.0          | Yes      | Yes                 | No                                 | Yes                                       |                         | 2.3.18                  |
-| odbc               		    | 1.2.1          | Yes      | No                  | No                                 | Yes                                       |                         |                         |
-| ==pprof==           		  | 1.1.0          | Yes      | No                  | Yes                                | Yes                                       |                         |                         |
-| puppeteer          		    | ?              | No       | Yes                 | No (19.6.3) , Yes - other versions | Yes                                       | Is it a native-module?? |                         |
-| ==re2==             		  | 1.17.7         | Yes      | No                  | Yes                                | Yes                                       |                         |                         |
-| ==secp256k1==       		  | 4.0.3          | Yes      | No                  | Yes                                | Yes                                       |                         | "4.0.2, 3.8.0"          |
-| ==sqlite3==         		  | 5.1.6          | Yes      | Yes                 | Yes (5.1.6) , Yes(5.0.0)           | Yes                                       |                         | 5.0.0                   |
-| ==sse4_crc32==      		  | 6.0.1          | Yes      | No                  | Yes                                | Yes                                       |                         |                         |
-| ==tiny-secp256k1==  		  | 1.1.6          | yes      | No                  | Yes                                | Yes                                       |                         |                         |
-| ==tulind==           		  | 0.8.18         | Yes      | Yes                 | Yes                                | Yes                                       |                         |                         |
-| ==tsparticles==      		  | 1.43.1         | No       | Yes                 | Yes                                | Yes                                       | Is it a native-module?? | 1.18.12                 |
-| ==websocket==        		  | 1.0.34         | Yes      | Yes                 | Yes                                | Yes                                       |                         | 1.0.31                  |
-| ==utf-8-validate==   		  | 6.0.3          | Yes      | No                  | Yes (6.0.3) , Yes(5.0.10)          | Yes                                       |                         | 5.0.10                  |
-
-
-![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/c2b53832-ed34-4d37-912e-f12ced358461)
+Link to doc: https://docs.google.com/spreadsheets/d/1Co2vJtWT99V4DpbXqIDZ0AP9ZeJ0VeRohu_VH-GXF6Q/edit?usp=sharing
+![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/ec0a0be4-8425-4de7-8d5e-4b8e83fe7813)
 
