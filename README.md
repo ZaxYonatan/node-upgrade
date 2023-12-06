@@ -29,5 +29,5 @@ Tarring the cloud-npm-downloader directory is essential for packaging and distri
 ## Native Modules Breakdown
 
 Link to doc: https://docs.google.com/spreadsheets/d/1Co2vJtWT99V4DpbXqIDZ0AP9ZeJ0VeRohu_VH-GXF6Q/edit?usp=sharing
-![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/ec0a0be4-8425-4de7-8d5e-4b8e83fe7813)
+![image](https://github.com/ZaxYonatan/node-upgrade/assets/97605966/24689158-1243-431c-874b-33abce8d6dcf)
 
