@@ -32,7 +32,7 @@ Before running the `run.sh` script successfully, make sure you have the followin
 
 ### Configuration
 Before proceeding, make the following adjustments:
-1. Update the content of the **NODE_VERSION** file to match the Node.js version you need (in this example, we used "18").
+1. Update the content of the **MAJOR_NODE_VERSION** file to match the Node.js version you need (in this example, we used "18").
 2. Update the content of the **PACK_VERSION** file to match the new pack_version.
 
 ### How to Run
