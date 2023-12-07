@@ -1,4 +1,3 @@
-NODE_VERSION=$(cat ./NODE_VERSION)
 PACK_VERSION=$(cat ./PACK_VERSION)
 CONTAINER_NAME=cloud-npm-downloader-container-$PACK_VERSION
 
