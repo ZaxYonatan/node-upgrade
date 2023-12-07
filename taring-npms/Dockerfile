@@ -8,7 +8,7 @@ COPY ./dynamic-modules /app/dynamic-modules
 COPY ./cloud-npm-downloader /app/cloud-npm-downloader
 COPY ./dynamic-modules.sh /app/dynamic-modules.sh
 COPY ./PACK_VERSION /app/PACK_VERSION
-COPY ./NODE_VERSION /app/NODE_VERSION
+COPY ./MAJOR_NODE_VERSION /app/MAJOR_NODE_VERSION
 
 
 WORKDIR /app
