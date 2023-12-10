@@ -6,7 +6,7 @@ ARTIFACT_NAME=cloud-npm-downloader-$MAJOR_NODE_VERSION
 NPM_TAR_NAME=$ARTIFACT_NAME.$PACK_VERSION.tar.gz
 
 echo "1. creating dynamic_modules.tar"
-tar cf ./dynamic_modules.tar -C ./dynamic_modules .
+tar cvf ./dynamic_modules.tar -C ./dynamic_modules .
 
 
 echo "2. zipping dynamic_modules.tar.gz"
