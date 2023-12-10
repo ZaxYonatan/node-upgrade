@@ -23,7 +23,7 @@ tar cvf $NPM_TAR_NAME dynamic_modules.tar.gz -I pigz npm-modules.json npm-module
 cd ..
 
 OUPUT_DESTINATION_PATH="./output/$NPM_TAR_NAME"
-echo "5. moving cloud-npm-downloader tar.gz output to $OUPUT_DESTINATION_PATH"
+echo "5. moving $NPM_TAR_NAME output to $OUPUT_DESTINATION_PATH"
 mkdir -p output
 cp ./cloud-npm-downloader/$NPM_TAR_NAME $OUPUT_DESTINATION_PATH
 
