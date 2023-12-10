@@ -21,5 +21,5 @@ echo "4. zipping inside cloud-npm-downloader folder"
 tar cvf $NPM_TAR_NAME dynamic_modules.tar.gz -I pigz npm-modules.json npm-modules-change-log.json npm-modules-version.txt dependencies.json npmModules.es6 dynamic_modules_pack_version
 
 echo "5. moving cloud-npm-downloader tar.gz output to ./output"
-mkdir output
+mkdir -p output
 cp ./cloud-npm-downloader/$NPM_TAR_NAME ./output/$NPM_TAR_NAME
