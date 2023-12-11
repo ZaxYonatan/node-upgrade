@@ -26,9 +26,7 @@ Before running the `run.sh` script successfully, make sure you have the followin
     ├── npm-modules.json
     └── npmModules.es6
 ```
-3. **Dockerfile** (Note that the image's Node.js version doesn't matter for taring; we used "14.21-slim").
-4. **dynamic-modules.sh**
-5. **PACK_VERSION** (content is the new pack_version)
+3. **PACK_VERSION** (content is the new pack_version)
 
 ### Configuration
 Before proceeding, make the following adjustments:
@@ -40,3 +38,5 @@ To tar the "cloud-npm-downloader-18.18.0.0.tar.gz" correctly, execute the follow
 ```bash
 sh ./run.sh
 ```
+
+The new tar will be under the ./output folder
