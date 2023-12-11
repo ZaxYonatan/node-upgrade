@@ -18,8 +18,10 @@ echo $GA_TAG_CONTENT > $GA_TAG_FILE_DESTINATION
 
 S3_BUCKET_PATH=s3://wix-code-modules
 S3_DESTINATION=$S3_BUCKET_PATH/$GA_TAGS_FOLDER_NAME/$NODE_18_GA_TAG_FILE_NAME
+S3_PROFILE="corvid-dev"
 
-# aws s3 cp ga_tags/cloud-npm-downloader-18.json s3://wix-code-modules/ga_tags/cloud-npm-downloader-18.json
-UPLOAD_GA_TAGS_FILE_COMMAND="aws s3 cp $GA_TAG_FILE_DESTINATION $S3_DESTINATION"
+# aws s3 cp --profile corvid-dev ga_tags/cloud-npm-downloader-18.json s3://wix-code-modules/ga_tags/cloud-npm-downloader-18.json
+OVERRIDE_GA_TAGS_FILE_COMMAND="aws s3 cp --profile $S3_PROFILE $GA_TAG_FILE_DESTINATION $S3_DESTINATION"
 
-echo "Command for overriding ga_tags:\n$UPLOAD_GA_TAGS_FILE_COMMAND"
+
+echo "Command for overriding ga_tags:\n$OVERRIDE_GA_TAGS_FILE_COMMAND"
