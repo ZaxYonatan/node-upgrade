@@ -17,12 +17,13 @@ Those packages must be re-installed to the right NODE_MODULE_VERSION (93 in this
 
 ## Installing Native Modules Locally
 ### Why Install Native Modules Locally?
-Native modules contain binary files that can vary between different Node.js versions. To ensure that those modules we'll work in the new node version, we need to re-install the native modules locally for the targeted Node.js version.
+Native modules contain binary files that vary between different Node.js versions. To ensure that those modules will work in the new node version, we need to re-install the native modules locally for the targeted Node.js version.
 
 
 ## Taring cloud-npm-downloader Guide
 ### Why Tar cloud-npm-downloader?
-Tarring the cloud-npm-downloader directory is essential for packaging and distribution. It allows us to bundle all necessary components into a single compressed file, ensuring easy deployment and versioning.
+As part of the node upgrade, we want to patch the current tar with a native-modules fix.
+We untar the existing deployed tar, we do some manually fixes then we tar everything together
 
 
 
