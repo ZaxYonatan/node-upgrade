@@ -13,3 +13,4 @@ The script should change the following:
 1. dynamic_modules/{<main_folder>}
 2. dynamic_modules/current (content should be NPM_MODULES_VERSION)
 3. dynamic_modules/current-link (should be updated to link the renamed folder)
+4. cloud-npm-downloader/npm-modules-version.txt (content should be NPM_MODULES_VERSION)
