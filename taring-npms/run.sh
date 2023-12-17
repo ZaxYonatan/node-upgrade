@@ -5,6 +5,9 @@ PACK_VERSION=$(cat ./PACK_VERSION)
 ARTIFACT_NAME=cloud-npm-downloader-$MAJOR_NODE_VERSION
 NPM_TAR_NAME=$ARTIFACT_NAME.$PACK_VERSION.tar.gz
 
+
+export COPYFILE_DISABLE=true # by default there is a duplication of files with ._ prefix. More info: https://unix.stackexchange.com/questions/282055/a-lot-of-files-inside-a-tar
+
 echo "1. creating dynamic_modules.tar"
 tar cvf ./dynamic_modules.tar -C ./dynamic_modules .
 
